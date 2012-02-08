@@ -1,0 +1,11 @@
+#代码存储路径
+dirPath=F:/workspace/spring/countCodeLines/src/main/java/
+
+#文件名正则
+regEx=.*\\.java
+
+#忽略统计的代码，如import，package等
+ignoreCode=(import|package).*
+
+#使用时间来判断文件新旧
+useTime=false
